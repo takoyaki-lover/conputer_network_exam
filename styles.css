@@ -6,7 +6,7 @@ body {font-family: Arial, sans-serif; line-height: 1.6; max-width: 890px;}
     .level-2 {font-size: 24px;}
     .level-3 {font-size: 20px;}
     .level-4, code {font-size: 16px;}
-    h1 { color: #444; text-align: center; margin: 0 0 20px; border-bottom: 3px solid #6c757d; display: inline-block; width: 100%; padding-bottom: 4px; }
+    h1 { color: #444; margin: 0 0 10px; width: 100%;}
     h2 { color: #2c3e50; margin: 0 0 5px; }
     .select-p {margin: 0 0 10px;}
     .exam-num {width: auto; height: 25px;}
@@ -39,12 +39,12 @@ body {font-family: Arial, sans-serif; line-height: 1.6; max-width: 890px;}
     .level-2 {font-size: 24px;}
     .level-3 {font-size: 20px;}
     .level-4, code {font-size: 16px;}
-    h1 { color: #444; text-align: center; margin: 0 0 20px; border-bottom: 3px solid #6c757d; display: inline-block; width: 100%; padding-bottom: 4px; }
+    h1 { color: #444; margin: 0 0 10px; width: 100%;}
     h2 { color: #2c3e50; margin: 0 0 5px; }
     .select-p {margin: 0 0 10px;}
     .exam-num {width: auto; height: 25px;}
     .section-block {margin: 0 0 30px; padding: 20px 20px 5px; background: white; border-radius: 15px; box-shadow: 0 4px 20px rgba(0,0,0,0.05); border: 1px solid #e0e0e0; }
-    .quiz-image {margin: 0 auto 10px; max-width: 100%; height: 300px; border: 1px solid #ddd; display: block; }
+    .quiz-image {margin: 0 auto 10px; max-width: 100%; height: 250px; border: 1px solid #ddd; display: block; }
     .q-title {margin: 20px 0 0;}
     .q-item {margin: 0 0 20px; padding: 10px; border-left: 4px solid #95a5a6; background-color: #f9f9f9;}
     .q-text {margin: 0 0 10px; font-weight: bold; color: #333; display: block;}
@@ -72,7 +72,7 @@ body {font-family: Arial, sans-serif; line-height: 1.6; max-width: 890px;}
     .level-2 {font-size: 20px;}
     .level-3 {font-size: 16px;}
     .level-4, code {font-size: 14px;}
-    h1 { color: #444; text-align: center; margin: 0 0 20px; border-bottom: 3px solid #6c757d; display: inline-block; width: 100%; padding-bottom: 4px; }
+    h1 { color: #444; margin: 0 0 8px; width: 100%;}
     h2 { color: #2c3e50; margin: 0 0 5px; }
     .select-p {margin: 0 0 10px;}
     .exam-num {width: auto; height: 25px;}
