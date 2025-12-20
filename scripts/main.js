@@ -1,6 +1,6 @@
 // 第何回目表示
 document.getElementById("title").textContent += ` 第${url_tail[num - 1]}回`
-document.getElementById("header-title").textContent += ` 第${url_tail[num - 1]}回`
+document.getElementById("header-title").innerHTML += `<br>第${url_tail[num - 1]}回`
 
 
 function renderQuiz() {
