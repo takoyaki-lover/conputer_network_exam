@@ -1,8 +1,4 @@
-// 第何回目表示
-document.getElementById("title").textContent += ` 第${url_tail[num - 1]}回`
-document.getElementById("header-title").innerHTML += `<br>第${url_tail[num - 1]}回`
-
-
+// 問題描画
 function renderQuiz() {
     const container = document.getElementById('quiz-container');
 
@@ -34,7 +30,7 @@ function renderQuiz() {
                     <p class="q-text level-4">${qIdx + 1}. ${q.text}</p>
                     ${qImgHtml}
                     <textarea id="user-input-${sIdx}-${qIdx}" class="level-4" placeholder="ここに解答を入力"></textarea>
-                    <button class="btn-ans" onclick="toggleAnswer(${sIdx}, ${qIdx})">解答例を表示 / 非表示</button>
+                    <button class="btn-ans level-4" onclick="toggleAnswer(${sIdx}, ${qIdx})">解答例を表示 / 非表示</button>
                     <div id="answer-${sIdx}-${qIdx}" class="sample-answer-area">
                         <p class="ans-label level-4">【解答例】</p>
                         <p class="sample-answer level-4">　${questionHtml}</p>
@@ -47,6 +43,7 @@ function renderQuiz() {
     });
 }
 
+
 // 解答の表示・非表示を切り替える
 function toggleAnswer(sIdx, qIdx) {
     const ansDiv = document.getElementById(`answer-${sIdx}-${qIdx}`);
@@ -56,5 +53,6 @@ function toggleAnswer(sIdx, qIdx) {
         ansDiv.style.display = "block";
     }
 }
+
 
 renderQuiz();

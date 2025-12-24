@@ -2,7 +2,8 @@
 const exam_num = document.querySelectorAll(".exam-num");
 
 
-let url_tail = ["1-6", "8-12"]
+let url_tail = ["1-6", "8-12"];
+let title_tail = ["1~6", "8~12"];
 
 // 小テスト変更
 exam_num.forEach(function (exam_num) {
@@ -17,3 +18,10 @@ exam_num.forEach(function (exam_num) {
 	})
 	exam_num.options[num].selected = true;
 })
+
+
+// 第何回目表示
+if (num != 0) {
+document.getElementById("title").textContent += ` 第${title_tail[num - 1]}回`;
+document.getElementById("header-title").innerHTML += `第${title_tail[num - 1]}回`;
+}
